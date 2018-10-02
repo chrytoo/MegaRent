@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #797979;
+}
+
+header {
+  width: 100%;
+  height: 50em;
+  background: url("../img/background.jpg");
+  background-size: cover;
+  padding: 2em 20%;
+}
+header .mainNavigation {
+  width: 100%;
+  height: 3.7em;
+  background: #fff;
+  padding: 0.5em 1em;
+}
+header .mainNavigation .logo {
+  display: inline-block;
+  width: 20%;
+  font-weight: bold;
+  font-size: 2em;
+}
+header .mainNavigation ul {
+  display: inline-block;
+  width: 79%;
+  text-align: right;
+  list-style: none;
+  text-transform: uppercase;
+}
+header .mainNavigation ul li {
+  display: inline-block;
+  margin-left: 1em;
+}
+header .mainNavigation ul li a {
+  text-decoration: none;
+}
+header .mainNavigation ul li a:hover {
+  color: #ff3720;
+}
+header h1 {
+  display: block;
+  margin: 22% auto 0;
+  width: 55%;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  font-size: 3em;
+  border-bottom: 1px solid #ff3720;
+}
+header h2 {
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+}
+
+.redText {
+  color: #ff3720;
+}
+
+section {
+  width: 100%;
+  padding: 7em 15%;
+  white-space: nowrap;
+}
+section h1 {
+  text-align: center;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+}
+section .column {
+  display: inline-block;
+  width: 25%;
+  white-space: normal;
+}
+section .column img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+section .column h2 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.catalog {
+  background: #f0f0f0;
+}
+
+.button {
+  display: block;
+  width: 50%;
+  margin: 0.5em auto 0;
+  padding: 0.5em 1em;
+  background: #ff3720;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+.button:hover {
+  background: #000;
+}
+
+table {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+table th, table td {
+  padding: 1em;
+}
+table thead {
+  background: #ff3720;
+}
+table thead th {
+  color: #fff;
+}
+table thead th:first-child {
+  background: #e42b15;
+}
+table tbody {
+  padding: 0 1em;
+}
+table tbody tr {
+  border-bottom: 1px solid #797979;
+}
+table tbody tr:hover {
+  background: #f0f0f0;
+}
+table tbody tr td:first-child {
+  font-weight: bold;
+  background: #f0f0f0;
+}
+
+footer {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 1em 20%;
+}
+footer:before, footer:after {
+  content: "";
+  display: table;
+}
+footer:after {
+  clear: both;
+}
+footer .logo {
+  border-bottom: 1px solid #ff3720;
+  font-size: 1.5em;
+}
+footer .info {
+  float: left;
+  padding: 1em;
+  color: #fff;
+  font-size: 0.9em;
+  font-style: italic;
+}
+footer iframe {
+  float: right;
+  padding: 1em;
+  text-align: right;
+}
+
+.pricingButton {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
