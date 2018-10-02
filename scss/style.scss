@@ -187,3 +187,82 @@ footer {
 }
 
 .pricingButton { display: none; }
+
+@media screen and(max-width: 1250px) {
+    header { padding: 2em 10%; }
+}
+
+@media screen and(max-width: 950px) {
+	header { 
+		padding: 2em 1%; 
+
+		h1 { width: 90%; }
+
+		.mainNavigation {
+			height: 2em;
+			padding: .2em 1em;
+			.logo { font-size: 1em; }
+			ul { font-size: .9em; }
+		}
+	}
+
+	section {
+		padding: 5em 5%;
+		white-space: normal;
+
+		.column {
+			width: 49%;
+			margin-bottom: 5em;
+		}
+	}
+
+	footer {
+		text-align: center;
+		.info, iframe { 
+			width: 100% 
+		}
+	}
+}
+
+@media screen and(max-width: 650px) {
+	header {
+		background: #000;
+		height: auto;
+
+		.mainNavigation {
+			height: auto;
+
+			ul {
+				width: 100%;
+
+				li {
+					width: 100%;
+					text-align: center;
+					padding: 1em;
+				}
+
+			}
+		}
+
+		h1 {
+			margin-top: 1em;
+		}
+	}
+
+	section {
+		.column {
+			width: 100%;
+			margin-bottom: 5em;
+		}
+	}
+
+	.button {
+		padding: 2em;
+	}
+
+	.pricingButton {
+		display: block;
+	}
+
+	table { display: none;}
+}
